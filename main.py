@@ -18,18 +18,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    # application = Application(icon_name='asdf')
-    # session.add(application)
-    # session.flush()
-    #
-    # window = Window(app_id=application.id)
-    # session.add(window)
-    # session.flush()
-    #
-    # open_activity = OpenActivity(window=window, occured_at='2001-01-10 00:00:00')
-    # close_activity = CloseActivity(window=window, occured_at='2001-01-10 00:00:01')
-    # session.add(open_activity)
-    # session.add(close_activity)
-    # session.flush()
-    #
-    # session.commit()
