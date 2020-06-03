@@ -6,8 +6,8 @@ from orm.activity_manager_object_manager_builder import ActivityManagerObjectMan
 
 def main():
     engine = create_engine('sqlite:///a.db')
-    Session = sessionmaker(bind=engine)
-    session = Session()
+    session_factory = sessionmaker(bind=engine)
+    session = session_factory()
 
     object_manager_builder = ActivityManagerObjectManagerBuilder()
     object_manager = object_manager_builder.build(session)
