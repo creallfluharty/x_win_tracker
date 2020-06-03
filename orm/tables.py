@@ -7,7 +7,7 @@ ApplicationsTable = Table(
     'Applications',
     metadata,
     Column('id', Integer(), primary_key=True),
-    Column('icon_name', Text(), nullable=False)
+    Column('name', Text(), nullable=False)
 )
 
 WindowsTable = Table(

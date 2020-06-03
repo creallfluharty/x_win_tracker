@@ -28,7 +28,7 @@ class Window(Base):
 class Application(Base):
     __tablename__ = 'Applications'
     id = Column(Integer, primary_key=True, autoincrement=True)
-    icon_name = Column(Text, nullable=False)
+    name = Column(Text, nullable=False)
 
 
 class WindowName(Base):
