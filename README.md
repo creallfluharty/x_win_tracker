@@ -2,7 +2,7 @@
 
 Little sandbox project for me to manage a database and develop a app usage tracker. Very unfinished.
 
-## Black Triangle
+## [Black Triangle][1]
 
 ```bash
 $ alembic upgrade head
@@ -29,3 +29,6 @@ More Specifically:
 Not that this is of much use while the database is unused, but in any case, here's a sketch-up of the current tables (also see `orm/tables`):
 
 ![][doc/activity_tracker_db.png]
+
+
+[1]: https://web.archive.org/web/20140217231851/http://rampantgames.com:80/blog/2004/10/black-triangle.html
